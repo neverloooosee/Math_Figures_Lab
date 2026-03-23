@@ -1,0 +1,7 @@
+Triangle 3 4 5
+Rectangle 10 20
+Trapeze 10 20 8 9
+Parallelogram 15 10 7
+Circle 5
+Triangle 6 8 10
+Circle 12
