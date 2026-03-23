@@ -51,3 +51,10 @@ if figs:
     print(f"RESULTS:")
     print(f"Max Area: {max_s.__class__.__name__} (S = {max_s.s():.2f})")
     print(f"Max Perimeter: {max_p.__class__.__name__} (P = {max_p.p():.2f})")
+
+if figs:
+    max_s = max(figs, key=lambda x: x.s())
+    max_p = max(figs, key=lambda x: x.p())
+    print(f"RESULTS:\nMax Area: {max_s.__class__.__name__} (S = {max_s.s():.2f})\nMax Perimeter: {max_p.__class__.__name__} (P = {max_p.p():.2f})")
+else:
+    print("DEBUG: Список фігур порожній. Перевірте вміст figures.txt.")
